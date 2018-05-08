@@ -1,0 +1,72 @@
+body{
+  font-size: 14px;
+  background-color: #50514F;
+  font-family: Century;
+  line-height: 25px;
+  letter-spacing: 2px;
+  word-spacing: 1px;
+}
+h1,h2{
+  font-family: Century;
+  font-size: 25px;
+  color: #17BEBB;
+
+}
+h1{
+  text-align: center;
+  text-decoration: underline;
+  background-color: #010001;
+  margin: 20px;
+  padding: 10px;
+  border: 10px solid #23CE6B;
+  letter-spacing: 15px;
+}
+#one,#two{
+  text-indent: 50px;
+}
+.container2,{
+  display: inline-block;
+  border-style: solid;
+  padding: 20px;
+  margin: 10px;
+}
+.links{
+  color:yellow;
+  font-style: italic;
+  line-height: 20px;
+}
+a:hover,a{
+  color: blue;
+  text-decoration: none;
+}
+.ext{
+content: url(http://upload.wikimedia.org/wikipedia/commons/6/64/Icon_External_Link.png);
+margin: 0 0 0 5px;
+}
+.right_side{
+  display: inline-block;
+  border-style: solid;
+  border-radius: 20px:
+  padding: 20px;
+  margin:30px;
+}
+  .bullets{
+  display: inline-block;
+  border-style: solid;
+  margin: 20px;
+  width: 10%;
+  background-color: blue;
+  line-height: 50px;
+  }
+ul{
+  list-style:square;
+  list-style-image: url(images/icon.png);
+
+}
+footer{
+  float:right;
+}
+button{
+  background-color: #69A297;
+  
+}

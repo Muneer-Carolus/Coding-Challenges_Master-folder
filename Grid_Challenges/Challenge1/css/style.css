@@ -1,0 +1,62 @@
+/* styling the grid */
+.grid{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-template-rows: repeat(1,1fr);
+  width: 100%;
+  border-style: solid;
+  border-color: black;
+  /* padding: 50px; */
+  grid-gap: 30px;
+}
+/* displaying images in a block */
+img{
+  border-style: solid;
+}
+a{
+  /* display: inline block; */
+  border-style: solid;
+  border-color: black;
+  padding: 10px;
+}
+/* styling the navbar */
+.navbar{
+  /* display: grid; */
+  grid-template-columns: repeat(1,1fr);
+  grid-template-rows: repeat(1,1fr);
+  width: 100%;
+  border-style: solid;
+  word-spacing: 170px;
+  padding: 100px;
+  display: inline-block;
+}
+
+.Section_one{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(1,1fr);
+  width: 100%;
+  margin-top: 4px;
+}
+.one{
+  /* background-color: blue; */
+  border: 3px solid black;
+  margin-top: 100px;
+  margin-left: 10px;
+}
+
+
+.two{
+text-align: center;
+}
+
+
+.Section_two{
+  word-spacing: 50px;
+}
+.Section_three{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(1,1fr);
+
+}

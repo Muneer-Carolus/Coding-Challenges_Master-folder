@@ -1,0 +1,30 @@
+body{
+  background: #BF1A2F;
+
+}
+h1,h2,h3,h4,h5{
+  font-family: Vivaldi;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+}
+.p1,p2,p3,p4,p5{
+  font-family: Agency FB;
+  font-size: 20px;
+}
+.p6,p7,p8,p9,p10{
+  font-family: Arial;
+  font-size: 20px;
+}
+.p11,p12,p13,p14,p15{
+  font-family: Arial Narrow;
+  font-size: 20px;
+}
+.p16,p17,p18,p19,p20{
+  font-family: cursive;
+  font-size: 20px;
+}
+.p21,p22,p23,p24,p25{
+  font-family: Berlin Sans FB;
+  font-size: 20px;
+}

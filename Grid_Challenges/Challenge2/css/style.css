@@ -1,0 +1,38 @@
+.grid_container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+
+}
+.me{
+  border-radius: 150px;
+  border-style: solid;
+  border-color: white;
+  width: 35%;
+  overflow: hidden;
+  margin-left: 130px;
+
+
+}
+.navbar{
+  text-decoration: none;
+  background-color: black;
+  width: 80%;
+  text-align: center;
+}
+.skate_girls{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-template-rows: repeat(1,2fr);
+  margin-top: 10px;
+  grid-gap: 5px;
+
+}
+.skate_boards{
+  display: grid;
+
+
+}
+img{
+  border: 2px solid ;
+}

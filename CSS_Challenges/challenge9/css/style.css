@@ -1,0 +1,45 @@
+/*starter CSS*/
+    .face {
+     background-color: rgb(236,238,29);
+     border-radius: 300px;
+     border: 2px solid rgb(0,0,0);
+     height: 300px;
+     position: relative;
+     width: 300px;
+
+   }
+   .eye_left{
+     background-color: blue;
+     border-radius: 30px;
+     height: 60px;
+     position: absolute;
+     left: -50px;
+     width: 40px;
+     padding-left: 10px;
+     margin: 100px;
+   }
+   .eye_right{
+     background-color: red;
+     border-radius: 30px;
+     height: 60px;
+     position: absolute;
+     left: 100px;
+     width: 40px;
+     padding-right: 10px;
+     margin: 100px;
+
+   }
+
+   .mouth {
+     border-radius: 0px 0px 170px 170px;
+
+     border-top: none;
+     border: 2px solid green;
+      margin-top: 170px;
+      margin-left: 50px;
+      height: 70px;
+      width: 170px;
+      border-top-color: rgb(236,238,29);
+
+
+   }

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+
+body{
+  background-image: url("../images/mainbackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #07A801;
+
+
+}
+h1{
+  text-shadow: 3px 2px green;
+  font-family: Vivaldi;
+  font-size: 50px;
+  color: white;
+}
+.p1{
+  color: #54F2F2;
+  line-height: 25px;
+
+}
+fieldset{
+
+  margin-top: 200px;
+  text-decoration: underline;
+  font-family: "Do Hyeon",sans-serif;
+  width: 60%;
+  box-shadow: 5px 5px 5px 10px  #07A801;
+
+}
+legend{
+  color: #54F2F2;
+  font-family: "Do Hyeon",sans-serif;
+}
+input{
+  text-decoration: none;
+  border-style: solid;
+}
+button{
+  background-color: #5BC0EB;
+  font-family:"Do Hyeon",sans-serif;
+}
+input::placeholder{
+
+  color: #5BC0EB;
+}
+a:hover.a{
+  margin-top: 50px;
+  color: #07A801;
+}
+a:visited{
+  color: #54F2F2;
+  text-decoration: none;
+}
+a:active{
+  color: green;
+}
+#footer{
+  bottom: 0;
+  margin-top: 10px;
+  float: right;
+  position: sticky;
+  border-style: solid;
+  border-radius: 10px;
+  width: 100%;
+}
