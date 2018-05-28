@@ -4,28 +4,43 @@
   grid-template-rows: repeat(3,1fr);
 
 }
+/* styling my nav section */
 .me{
-  border-radius: 150px;
+  border-radius: 50%;
   border-style: solid;
   border-color: white;
   width: 35%;
   overflow: hidden;
   margin-left: 130px;
-
+  margin-top: 10px;
 
 }
+
+.about_me{
+  color: white;
+}
 .navbar{
-  text-decoration: none;
+  decoration: none;
   background-color: black;
   width: 80%;
   text-align: center;
+
 }
+a{
+  text-decoration: none;
+  color: white;
+}
+hr{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+/* /////////////////////////////////////////////// */
 .skate_girls{
   display: grid;
   grid-template-columns: repeat(1,1fr);
   grid-template-rows: repeat(1,2fr);
   margin-top: 10px;
-  grid-gap: 5px;
+  grid-gap: 50px;
 
 }
 .skate_boards{

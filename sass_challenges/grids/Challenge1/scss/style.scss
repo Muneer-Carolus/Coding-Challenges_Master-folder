@@ -1,0 +1,51 @@
+// imprting partials
+@import "partials/layout";
+// importing fonts
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+//styling webpage
+.grid{
+  background-image: url(../images/pexels-background.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  img{
+    border-radius: 5px;
+    border-style: solid;
+    &:hover{
+       box-shadow: 10px 10px grey;
+       transform: skewX(10deg);
+    }
+  }
+  .navbar{
+    background-color: black;
+    a{
+        padding: 100px;
+        text-decoration: none;
+        color: white;
+        font-size: 50px;
+        font-family: 'Indie Flower', cursive;
+        &:hover{
+          color: yellow;
+          border:10px white;
+        }
+    }
+  }
+    p{
+    font-family: 'Indie Flower', cursive;
+  }
+  .one{
+    background-image: url(../images/pexels.jpeg);
+    color: white;
+    border: 2px solid;
+    word-spacing: 10px;
+    font-size: 30px;
+  }
+  .Section_three{
+    color: white;
+    border: 2px solid;
+    word-spacing: 10px;
+    font-size: 30px;
+  }
+
+}

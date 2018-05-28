@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Kavivanar");
+.container {
+  background-image: url("../images/scroll.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid black;
+  border-radius: 10px; }
+  .container label {
+    font-size: 25px;
+    color: #7C7C7C;
+    font-family: 'Kavivanar', cursive; }
+  .container h1 {
+    color: #3D0B37;
+    font-family: 'Kavivanar', cursive; }
+  .container input {
+    color: #7C7C7C; }
+
+/*# sourceMappingURL=style.css.map */

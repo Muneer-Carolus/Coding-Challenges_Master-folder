@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Kavivanar|Yatra+One");
+.container {
+  background-image: url(../images/main.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid black 5px; }
+  .container .nav {
+    display: inline-block;
+    padding: 10px; }
+    .container .nav a {
+      margin-left: 10px;
+      padding: 60px;
+      text-decoration: none;
+      font-size: 20px;
+      color: #000000;
+      font-family: 'Yatra One', cursive; }
+      .container .nav a:hover {
+        box-shadow: 10px 5px 5px; }
+  .container h1 {
+    text-align: center;
+    margin-top: 60px;
+    font-family: 'Yatra One', cursive; }
+
+footer {
+  background-color: black;
+  padding: 50px;
+  color: white;
+  width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
